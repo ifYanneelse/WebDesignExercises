@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title> Usando links em documentos web </title> 
+</head> 
+
+<body> 
+ <h1> Links em HTML5 - página1 </h1>
+
+ <p> Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links 
+  
+  <!--uso de um link local-->
+  <a href="links-pagina2.html" title="Acessar a página de nossa aplicação para efetuar seu cadastro" target="_blank"> Clique aqui para ir para a página 2 de nossa aplicação </a>
+  
+  Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links Exemplo do uso de links </p>
+    
+</body> 
+</html> 

@@ -1,0 +1,13 @@
+h1 {
+    font-family: candara;
+    background-color: green;
+}
+
+p {
+    border: 3px;
+    font-size: 18px solid purple;
+}
+
+ul {
+    list-style-type: upper-roman; /*define o tipo de marcador da lista */
+}
