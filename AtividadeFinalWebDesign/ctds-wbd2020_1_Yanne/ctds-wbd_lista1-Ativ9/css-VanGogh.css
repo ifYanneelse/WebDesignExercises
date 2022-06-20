@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: darkgreen;
+    font-size: 70px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    text-align:center;
+    color: darkgreen;
+    font-size: 40px;
+}
+
+body{
+    font-family: 'Handlee', cursive;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: justify;
+}
+
+p{
+    font-size: 20px;
+}
+
+.caixaresumo{
+    background-color:rgb(17, 16, 73);
+    color:rgb(252, 227, 7);
+    padding: 25px;
+    padding-left: 80px;
+    margin:10px;
+    margin-left: 850px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px black;
+}
+
+.nomediferente {
+    font-size:40px;
+    color:blue;
+    font-weight:bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.fotogirassol{
+    background-color:rgb(118, 190, 115);
+    padding: 15px;
+    padding-left: 40px;
+    margin:5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 2px rgb(173, 204, 110);
+}
+
+.afastar{
+    position: relative;
+    top: 30px;
+    margin-left: 50px;
+}
+
+.textofinal{
+    padding-right: 50px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border:4px dotted #7FFFD4;
+    background-color: rgba(255, 241, 117, 80);
+    box-shadow: inset 10px 10px rgb(247, 243, 30);
+}
+
+.light {
+    padding:2px 2px 2px 20px;
+    background-color:#7FFFD4;
+  }
