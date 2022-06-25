@@ -11,6 +11,7 @@
 <br>
 
 #### Modelo básico de um documento HTML5
+<!-- html:5(tab)-->
 
       <!DOCTYPE html> 
       <html lang="pt-BR"> 
