@@ -1,12 +1,13 @@
 # WebDesignExercises
 
-- Conceitos básicos de Web Design	
+#### Conceitos básicos de Web Design	
 - Fundamentos da linguagem HTML5
-- Links com HTML5	
-- Imagens com HTML5
-- Listas em HTML5
-- Fundamentos de formulários na linguagem HTML
+     - Links com HTML5	
+     - Imagens com HTML5
+     - Listas em HTML5
+     - Formulários em HTML5
 - Fundamentos do CSS
+
 
 <br>
 
@@ -30,4 +31,4 @@
       </html> 
 
 #
-:date: 2019
+:date: 2019, 2022
