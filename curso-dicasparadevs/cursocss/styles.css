@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box; /* pra não afetar a largura do width | tamanho padrão em todo o site*/ 
+}
+
+h1 {
+    color: red;
+}
+
+/*pra selecionar uma classe*/
+.segundo-h3 {
+    color: pink;
+}
+
+/*pra selecionar um id*/
+#segundo-h3 {
+    color: blue;
+}
+
+
+
+/* Cores no CSS
+    . Nome da cor
+    . Hexadecimal
+    . RGB e RGBA
+
+body {
+    background: red;
+    color: white;
+}
+
+h1 { 
+    color: #000000; preto
+    color: #ffffff; branco
+}
+
+p {
+    color: rgb(0,0,255); 255=azul mais escuro
+}
+
+a {
+    color: rgba(0,0,255,0.6) 0.6=opacidade:transparente
+}
+
+*/
+
+body {
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /*font-weight: bold; pro texto ficar negrito*/
+    margin: 0; /*para o cabeçalho ficar colado no site */
+}
+
+.container {
+    background-color: #333;
+    color: #eee;
+    /*width: 960px; largura */
+    width: 80%; /*move junto com a pagina, elemento mais adaptavel*/
+    
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    /* mesma coisa que acima: */ 
+    margin: auto; /*deixa o elemento no meio da pagina*/
+
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    /* mesma coisa que acima: */ 
+    padding: 60px; /*espaçamento dentro do quadrado*/
+
+    border-top: 10px solid red;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+    /* mesma coisa que acima: */
+    border: 10px solid red;
+}   
+
+/* REDES SOCIAIS */
+
+.main-aside h2 {
+    text-align: center;
+} 
+
+.main-aside h2:hover { /* estado que muda o elemento quando passa o mouse por cima */
+    color: purple;
+    cursor: pointer; /* muda o cursos */
+} 
+
+.main-aside ul { /* pra pegar o ul que está dentro da classe */
+    /* list-style: square;  tira as bolinhas e deixa os quadrados */
+    list-style: none; /* tira as bolinhas */
+    text-align: center;
+    padding: 0; /* deixar alinhado e tirar o padding padrão */
+}
+
+.main-aside ul a {
+    text-decoration: none; /* tira a linha do link padrão */
+    color: black;
+} 
+
+.main-aside ul a:hover {
+    color: green;
+} 
+
+.main-aside ul a:visited { /* muda a cor caso o link ja tenho sido clicado */
+    color: red;
+}
+
+/* FORMULÁRIO */
+.main-form {
+    padding-left: 30px; /* pra desgarrar da borda */
+}
+
+.main-form .form-group {
+    padding-bottom: 10px; /* espaçamento entre os elementos | funciona como margin-bottom também */
+}
+
+.main-form .form-group input { /* deixa os inputs maiores, espaçados */
+    padding: 10px;
+    width: 100%;
+}
+
+.main-form .form-group label { /* tira o label lado a lado e passa pra baixo do input */
+    display: block;
+}
+
+.button {
+    padding: 15px;
+    background-color: #333;
+    color: #eee;
+    border: none; /* tira a borda padrão que vem no botão */
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+/* POSITIONS */
+.relative {
+    position: relative;
+    border: 3px solid #333;
+    height: 300px;
+    border-radius: 7px;
+}
+
+.relative .absolute {
+    position: absolute;
+    bottom: 0; /* coloca texto pro fim */
+}
+
+.relative .absolute h1 {
+    margin: 0; /* tira a margem do h1 */
+}
+
+#main-navbar { /* pelo id */
+    background: rgb(32, 18, 18);
+    color: #eee;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    position: sticky; /*deixa a barra de navegação movimentando junto com o scroll */
+    top: 0;
+}
+
+/* FIXED BUTTON */
+.fixed-button {
+    background: #333;
+    color: #eee;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+/* CATEGORIES */
+.categories ul {
+    list-style: none;
+}
+
+/*
+.categories ul li:first-child {
+    color: purple;
+}
+
+.categories ul li:last-child {
+    color: green;
+}
+
+.categories ul li:nth-child(3) {
+    color: blue;
+}
+*/
+
+.categories ul li:nth-child(even) { /*elementos pares*/
+    color: purple;
+}
+
+.categories ul li:nth-child(odd) { /*elementos impares*/
+    color: greenyellow;
+}

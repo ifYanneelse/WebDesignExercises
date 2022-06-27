@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- c) CSS Externo: importando um arquivo.css no html: -->
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+
+    <title>Curso CSS</title>
+
+    <!--
+    b) CSS Interno: usando tags <style> no documento html
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+    -->
+
+</head>
+    <body>
+        <!-- 
+            nav.main-navb + table =
+            <nav class="main-navbar">
+            </nav>
+
+            nav#main-navb + table =
+            <nav id="main-navbar">
+            </nav>
+        -->
+
+        <nav id="main-navbar">
+            <h1>barra de navegação</h1>
+        </nav>
+    
+
+        <h1>olá mundo!</h1>
+            
+        <!-- 
+            3 formas de adicionar CSS:
+
+            a) Inline CSS: Direto no elemento HTML(má prática):
+            <h1 style="color: red;">olá mundo!</h1>
+        -->
+
+    
+        <!-- 
+            Selecionando elementos específicos
+            . Usando classes: selecionar mais de um elemento
+            . Usando id: selecionar apenas um elemento
+        -->
+
+        <h3>Heloooooo!</h3>
+        <h3 class="segundo-h3">Heloooooo!</h3>
+        <h3 class="segundo-h3">Heloooooo!</h3>
+        <h3 class="segundo-h3">Heloooooo!</h3>
+        <h3 id="segundo-h3">Heloooooo!</h3>
+
+        <hr>
+            <div class="container">
+                <h2>Olá mundooooooooo!</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Minus velit maiores expedita accusantium blanditiis fugit non odit quo dignissimos 
+                    fugiat qui magni vel delectus nihil at autem esse, officia ea.
+                </p>
+            </div>
+        <!--
+        padding: espaçamento dentro do conteúdo
+        margin: espaçamento fora do conteúdo
+        border: borda do conteúdo
+        -->
+        <br>
+
+        <aside class="main-aside">
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href="https://twitter.com">twitter</a></li>
+                <li><a href="https://instagram.com">instagram</a></li>
+            </ul>
+        </aside>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- FORMULÁRIOS -->
+
+        <div class="box">
+            <form action="form.php" method="POST" class="main-form">
+                <div class="form-group">
+                    <label>Primeiro Nome:</label>
+                    <input type="test" placeholder="entre seus primeiro nome" />
+                </div>
+        
+                <div class="form-group">
+                    <label>Segundo Nome:</label>
+                    <input type="test" />
+                </div>
+        
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" />
+                </div>
+        
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea name="mensagem"></textarea>
+                </div>
+        
+                <input class="button" type="submit" />
+            </form>
+        </div>    
+
+        <br />
+        <hr />
+        <br />
+
+        <!--
+        propriedade position no CSS
+        - static:
+            . valor padrão
+            . elemento segue o fluxo da página
+            . propriedades top, bottom,right e left não são aplicáveis
+
+        - relative:
+            . elemento é posicionado em relação a sua posição normal
+            . propriedades top, bottom,right e left são aplicáveis
+
+        - absolute:
+            . elemento é posicionando em relação ao seu elemento 
+            pai mais próximo que possui position: relative
+            . se o elemento não tiver nenhum elemento pai com position:
+            relative, é posicionando em relação ao body
+
+        - fixed:
+            . elemento é posicionado em relação ao viewport (config do documento)
+            . sempre fica na mesma posição, mesmo se a página é rolada
+            . propriedades top, bottom,right e left são aplicáveis
+
+        - sticky:
+            . elemento é posicionando em relação a posição do scroll do usuário
+            . propriedades top, bottom,right e left são aplicáveis
+            . ex.: muito usado em barras de navegações
+        -->
+
+        <div class="box relative">
+            <div class="absolute">
+                <h1>Bom dia mundo! :)</h1>
+            </div>
+        </div>
+
+        <button class="fixed-button"></button>
+
+        <!--
+        pseudo-classes
+        - first-child: seleciona o primeiro elemento filho
+           
+        - last-child: seleciona o último elemento filho
+
+        - nth-child(n): seleciona o n elemento filho
+        -->
+
+        <br />
+        <hr />
+        <br />
+
+        <div class="box categories">
+            <h2>Categorias</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+        </div>
+
+    </body>
+</html>

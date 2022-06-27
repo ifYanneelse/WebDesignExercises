@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Curso de HTML </title>
+    </head>
+
+    <body>
+        <nav>
+            <ul>
+                <li><a href="blog.html">blogao</a></li>
+            </ul>
+        </nav>
+
+        <!-- Cabeçalhos -->
+        <h1> Cabeçalho nível 1 </h1>
+        <h2> Cabeçalho nível 2 </h2>
+        <h3> Cabeçalho nível 3 </h3>
+        <h4> Cabeçalho nível 4 </h4>
+        <h5> Cabeçalho nível 5 </h5>
+        <h6> Cabeçalho nível 6 </h6>
+        
+        <!-- Cabeçalhos -->
+
+        <!-- lorem + tab = texto -->
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur sunt rerum odio beatae velit tempora cumque facilis. Dicta, nostrum quibusdam dolor earum esse numquam veritatis minus necessitatibus totam. Soluta! </p>
+
+        <!-- lorem10 + tab = texto com 10 palavras -->
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, quis.</p>
+
+            <!-- 
+                Elementos inline            
+                . não iniciam uma nova linha
+                . ocupam apenas a largura necessária            
+            
+
+                Elementos block            
+                . não iniciam uma nova linha
+                . ocupam apenas a largura necessária
+                
+                Exemplos:
+                Inline: <span> | <img> | <a>
+                Block: <div> | <h1> | <h6> | <form>
+            -->
+
+        <!-- tag inline: <strong> | destaca palavra-->
+        <p>Lorem, ipsum dolor sit <strong>amet consectetur</strong> adipisicing elit. Architecto, quis.</p>
+
+        <!-- tag <em> | palavra em italico-->
+            <p>Lorem, ipsum dolor sit <em>amet consectetur</em> adipisicing elit. Architecto, quis.</p>
+
+
+        <!-- LINKS -->
+        <p>
+            <a href= "https://google.com" target="__black">Lorem,</a>ipsum dolor sit <strong>amet consectetur</strong> adipisicing elit.
+        </p>
+        <a href="https://google.com" target="__black">Google</a>
+
+
+           <!-- 
+                Atributos de uma tag:            
+                . todas as tags podem ter atributos
+                . dão informações sobre um elemento          
+                . são inseridas na tag de inicio
+                . padrão key value pairs (id="discaparadevs")
+
+                exemplo:
+                <div class="discaparadevs"></div>
+            -->
+
+        <!-- TABLES -->
+        <table>
+            <thead>
+                <tr><!--linha da tabela-->
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Felipe</td>
+                    <td>flipe@mail.com</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>an@mail.com</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>mar@mail.com</td>
+                    <td>38</td>
+                </tr>
+            </tbody>
+        </table>    
+
+        <br />
+        <hr />
+        <br />
+
+        <!-- FORMULÁRIOS -->
+        <form action="form.php" method="POST">
+            <div>
+                <label>Primeiro Nome:</label>
+                <input type="test" placeholder="entre seus primeiro nome" />
+            </div>
+
+            <div>
+                <label>Segundo Nome:</label>
+                <input type="test" />
+            </div>
+
+            <div>
+                <label>Email:</label>
+                <input type="email" />
+            </div>
+
+            <div>
+                <label>Genero:</label>
+                <select>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>                
+            </div>
+
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" />
+            </div>
+
+            <div>
+                <label>Senha</label>
+                <input type="password" />
+            </div>
+
+            <div>
+                <label>Mensagem</label>
+                <textarea name="mensagem"></textarea>
+            </div>
+
+            <input type="submit" />
+        </form>
+
+        <br />
+        <hr />
+        <br />
+
+        <!-- BOTÕES -->
+        <button>Click me</button>
+        <br />
+        <!-- IMAGENS -->
+        <img src="./img/htmlcssjs.jpg" alt="nome da imagem caso não abra" />
+
+        <!-- BLOCKQUOTE - DE ONDE A CITAÇÃO VEM -->
+        <blockquote cite="dicasparadevs.com.br">
+            Lorem ipsum dolor sit amet consectetur adipisicing 
+            elit. Incidunt, tenetur!
+        </blockquote>
+
+        <p> eu amo a <abbr title="world wide web">WWW</abbr>!</p>
+        <p>Tutorial feito por <cite>dicasparadevs</cite></p>
+
+        <br />
+
+            <!-- 
+                Tags semânticas no html:            
+                <header>
+                <nav>
+                <section>
+                <article>
+                <aside>
+                <footer>
+            -->
+
+        <hr />
+        <br />
+
+    </body>
+
+</html>
